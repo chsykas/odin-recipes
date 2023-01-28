@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../assets/ekler-with-chocolate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f1faee;
+}
+
+.recipe-title {
+  color: #e63946;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.recipe-desc,
+.ing,
+.steps {
+  color: #a8dadc;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.para {
+  color: #f1faee;
+  margin: 15px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+ul.ing-items,
+ol.step-by-step {
+  font-size: 20px;
+}
+
+li {
+  line-height: 1.5em;
+  color: #f1faee;
+}
+
+.ing-cat,
+.steps-cat {
+  margin: 10px;
+  font-size: 20px;
+  color: #f1faee;
+}
